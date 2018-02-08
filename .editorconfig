@@ -1,0 +1,12 @@
+# editorconfig.org
+
+root=true  #使用以下规则
+
+[*]  #所有通配符
+charset = utf-8  #编码格式
+indent_size = 4  #缩进
+indent_style = space #通过什么缩进
+insert_final_newline = true #以空白行结尾
+trim_trailing_whitespace = true #去除行首空白行
+[*.md]
+trim_trailing_whitespace = false 
